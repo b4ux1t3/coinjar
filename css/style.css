@@ -8,11 +8,6 @@ html
 	background-color: #343434;
 }
 
-h3
-{
-	font-size: 1.3em;
-}
-
 .button
 {
 	display: inline-block;
@@ -35,7 +30,7 @@ h3
 	display: inline-block;
 	height: auto;
 	padding-bottom: 30px;
-	width: 25%;
+	width: 33%;
 	background-color: #7FFFD4;
 	border-radius: 25px;
 	text-align: center;
@@ -46,9 +41,10 @@ h3
 .lid
 {
 	display: inline-block;
-	width: 25%;
+	width: 33%;
 	height: 50px;
 	background-color: #9d9d9d;
+	margin-top: -5%;
 }
 
 .label
@@ -56,8 +52,14 @@ h3
     width: 90%;
     margin: auto;
     background-color: #F7F8E7;
+}
+
+.label p
+{
+    font-size: 1em;
     font-family: cursive;
 }
+
 
 #title
 {
@@ -76,4 +78,13 @@ h3
 	position: relative;
 	margin: auto;
 	margin-top: -10.5%;
+}
+
+#jarApp
+{
+    float: left;
+    width: 900px;
+    position: relative;
+    padding: 1%;
+    border-style: inset;
 }

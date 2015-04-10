@@ -11,7 +11,7 @@ app.controller('MainController',
         {
             $scope.nickels += 1;
             $scope.total = Math.floor($scope.sum() * 100) / 100;
-            $scope.total =  $scope.parseTotal();
+            $scope.total = $scope.parseTotal();
         }
         $scope.dimeUp = function()
         {
