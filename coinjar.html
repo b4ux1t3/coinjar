@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Coin Jar App</title>
+<script src="js/shared/angular.min.js"></script>    
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body ng-app="coinJar" ng-controller="MainController">
+<div id="wrapper">
+<h1 id="title">{{title}}</h1>
+<div id="lid-block">
+	<div class="lid"></div>
+	<div class="lid"></div>
+	<div class="lid"></div> 
+</div>
+<div id="jar">
+	<div id="nickel-container" class="container">
+		<h3>Nickels</h3>
+		<p id="nickel-count">{{nickels}}</p>
+		<div id="nickel-down" class="button down"> <button ng-click="nickelDown()">-</button></div>
+		<div id="nickel-up" class="button up"> <button ng-click="nickelUp()">+</button></div>
+	</div>
+	
+	<div id="dime-container" class="container">
+		<h3>Dimes</h3>
+		<p id="dime-count">{{dimes}}</p>
+		<div id="dime-down" class="button down" ng-click="dimeDown()">-</div>
+		<div id="dime-up" class="button up" ng-click="dimeUp()">+</div>
+	</div>
+	
+	<div id="quarter-container" class="container">
+		<h3>Quarters</h3>
+		<p id="quarter-count">{{quarters}}</p>
+		<div id="quarter-down" class="button down" ng-click="quarterDown()">-</div>
+		<div id="quarter-up" class="button up" ng-click="quarterUp()">+</div>
+	</div>
+</div>
+</div>
+
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+</body>
+</html>

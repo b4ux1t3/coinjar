@@ -1,0 +1,67 @@
+html
+{
+	background-color: #343434;
+}
+
+h3
+{
+	font-size: 1.3em;
+}
+
+.button
+{
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+}
+
+.up
+{
+	background-color: #00FF00;
+}
+
+.down
+{
+	background-color: #FF0000;
+}
+
+.container
+{
+	display: inline-block;
+	height: auto;
+	padding-bottom: 30px;
+	width: 25%;
+	background-color: #7FFFD4;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 3em;
+	margin: auto;
+}
+
+.lid
+{
+	display: inline-block;
+	width: 25%;
+	height: 50px;
+	background-color: #9d9d9d;
+}
+
+#title
+{
+    text-align: center;
+}
+
+#lid-block
+{
+	padding: 5%;
+	margin: auto;
+}
+
+#jar
+{
+	padding: 5%;
+	position: relative;
+	margin: auto;
+	margin-top: -11%;
+	z-index: -1;
+}
