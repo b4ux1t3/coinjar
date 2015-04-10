@@ -51,6 +51,14 @@ h3
 	background-color: #9d9d9d;
 }
 
+.label
+{
+    width: 90%;
+    margin: auto;
+    background-color: #F7F8E7;
+    font-family: cursive;
+}
+
 #title
 {
     text-align: center;
@@ -67,5 +75,5 @@ h3
 	padding: 5%;
 	position: relative;
 	margin: auto;
-	margin-top: -11%;
+	margin-top: -10.5%;
 }
